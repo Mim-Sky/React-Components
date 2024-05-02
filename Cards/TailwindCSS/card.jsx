@@ -5,7 +5,7 @@ const Card = ({ title, image, description}) => {
   return (
     <div className="rounded overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
       <div className="relative">
-        <Link href="/mountain">
+        <Link href="#">
           <Image
             src={image}
             width={330}
@@ -16,7 +16,7 @@ const Card = ({ title, image, description}) => {
         </Link>
       </div>
       <div className="px-6 py-4">
-        <Link href="/mountain"
+        <Link href="#"
             className="font-semibold text-lg inline-block transition duration-500 ease-in-out">{title}</Link>
         <p className="text-gray-500 text-sm">
             {description}
